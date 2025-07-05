@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tải BAT từ GitHub</title>
+  <title>Tải file</title>
   <style>
     body {
       background-color: #121212;
@@ -15,28 +15,19 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-    }
-
-    .path-box {
-      background-color: #1e1e1e;
-      padding: 12px 16px;
-      border-radius: 6px;
-      border: 1px solid #333;
-      user-select: all;
-      margin-bottom: 20px;
-      max-width: 90%;
-      text-align: center;
-      word-wrap: break-word;
+      gap: 20px;
     }
 
     .download-btn {
       background-color: #2196F3;
       color: white;
-      padding: 10px 18px;
+      padding: 12px 24px;
       border: none;
-      border-radius: 4px;
+      border-radius: 6px;
       font-size: 16px;
       cursor: pointer;
+      width: 160px;
+      text-align: center;
     }
 
     .download-btn:hover {
@@ -45,11 +36,12 @@
   </style>
 </head>
 <body>
-  <div class="path-box">C:\Windows\System32\WindowsPowerShell\v1.0\</div>
-  <div class="path-box">Set-ItemProperty -Path "HKCU:\Software\Policies\Microsoft\Windows\System" -Name "DisableCMD" -Value 0</div>
+  <a href="https://drive.usercontent.google.com/download?id=1e1CNS-eiHVZeoh9qOYlLAC1-gOJ8cXyc&export=download&authuser=0">
+    <button class="download-btn">.bat</button>
+  </a>
 
-  <a href="https://drive.usercontent.google.com/download?id=1e1CNS-eiHVZeoh9qOYlLAC1-gOJ8cXyc&export=download&authuser=0" download>
-    <button class="download-btn">Tải file .bat</button>
+  <a href="https://drive.usercontent.google.com/download?id=1cMvXvXpFHVb8FYH0-pXkApM8uqrI26E9&export=download&authuser=0">
+    <button class="download-btn">.reg</button>
   </a>
 </body>
 </html>
