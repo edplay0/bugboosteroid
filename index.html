@@ -2,46 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tải file</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Download Links</title>
   <style>
     body {
-      background-color: #121212;
-      color: #ffffff;
-      font-family: Consolas, monospace;
+      background-color: #0d1a1a;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
       margin: 0;
-      gap: 20px;
+      font-family: Arial, sans-serif;
     }
-
-    .download-btn {
-      background-color: #2196F3;
-      color: white;
+    a.button {
+      display: inline-block;
       padding: 12px 24px;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-      width: 160px;
-      text-align: center;
+      margin: 10px;
+      border-radius: 30px;
+      background-color: white;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
     }
-
-    .download-btn:hover {
-      background-color: #1976D2;
+    a.button:hover {
+      background-color: #e6e6e6;
     }
   </style>
 </head>
 <body>
-  <a href="https://drive.usercontent.google.com/download?id=1cMvXvXpFHVb8FYH0-pXkApM8uqrI26E9&export=download&authuser=0">
-    <button class="download-btn">.reg</button>
-  </a>
 
-  <a href="https://drive.usercontent.google.com/download?id=1GygGicw5nf3FIefXM25rVr1D7xjN31lx&export=download">
-    <button class="download-btn">.bat</button>
-  </a>
+  <a class="button" href="https://drive.usercontent.google.com/download?id=1cMvXvXpFHVb8FYH0-pXkApM8uqrI26E9&export=download&authuser=0">.reg</a>
+  <a class="button" href="https://drive.usercontent.google.com/download?id=1GygGicw5nf3FIefXM25rVr1D7xjN31lx&export=download">.bat</a>
+  <a class="button" href="https://file.kiwi/f3d0679c#HC_aYDIxMkKcucQtFuzWvw">RDPWrap</a>
+
 </body>
 </html>
